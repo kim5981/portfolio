@@ -124,7 +124,15 @@
     /* ******* E N D  H E A D E R ****** */
     
 
-   
+   /* -- projects -- */
+   .projects-wrap{
+       display: flex;
+   }
+   .project-gifs{
+       height: 100px;
+       width: 150px;
+        object-fit: contain;
+   }
     
 }
 
