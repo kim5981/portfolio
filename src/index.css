@@ -16,9 +16,16 @@
         font-size: 1.8rem;
     }
 
+    /* ******* H E A D E R ****** */
+
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     h1{
         width: 70%;
-        padding: 1% 0 0 6%;
+        padding: 1% 0 0 1%;
         margin-top: 1%; 
         text-align: center;
        font-size: 3rem; 
@@ -114,7 +121,8 @@
     }
 
     
-    /* -- end of hamburger menu -- */
+    /* ******* E N D  H E A D E R ****** */
+    
 
    
     
@@ -123,6 +131,11 @@
 @media  screen and (min-width:750px) {
     #sidebar-menu{
         display: inline;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        visibility: visible;
     }
     #hamburger-menu{
         display: none;
