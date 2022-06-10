@@ -13,7 +13,7 @@
     body {
         background-color: rgb(77, 59, 75);
         color: white;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     /* ******* H E A D E R ****** */
@@ -126,7 +126,7 @@
 
     .welcome{
         width: 85%;
-        padding: 0 1% 0 8%;
+        padding: 0 1% 0 5%;
         display: flex;
         flex-wrap: wrap;
         position: relative;
@@ -151,11 +151,29 @@
         animation: spin 10s ease-in-out infinite;
     }
 
-    /* web developer, caffeine-addict, artist */
     @keyframes spin {
         0% {content: "web developer";}
         50% { content: "caffeine-addict";}
         90% {content: "artist";}
+    }
+
+    /* -- summary -- */
+
+    #summary{
+        display: flex;
+        flex-direction: column;
+        padding-left: 4%;
+    }
+
+    #langs{
+        height: 5%;
+        padding-left: 4%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #langs li{
+        list-style: none;
     }
 
    /* -- projects -- */
