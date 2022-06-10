@@ -127,7 +127,7 @@
    /* -- projects -- */
   
    .project-gifs{
-       padding-right: 2.5%;
+       padding: 0 0% 0 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -136,10 +136,46 @@
    }
 
    .project-gifs img{
-    height: 80%;
-       width: 85%;
-        object-fit: contain;      
+    height: 100%;
+       width: 100%;
+        object-fit: contain;     
+        margin: 1%; 
    }
+
+   .img-wrap{
+       position: relative;
+   }
+
+   .img-wrap img{
+    width: 100%
+   }
+
+   .caption{
+       font-size: 1.2rem;
+       box-sizing: border-box;
+       width: 100%;
+       padding: 10px;
+       position: absolute;
+       bottom: 0;
+       left: 0;
+    }
+
+    /* show/hide captions */
+    .cap{
+        visibility: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .wrap:hover .cap{
+         visibility: visible;
+         opacity: 1;
+        }
+
+
+
+
+
     
 }
 
