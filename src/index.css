@@ -125,13 +125,20 @@
     
 
    /* -- projects -- */
-   .projects-wrap{
-       display: flex;
-   }
+  
    .project-gifs{
-       height: 100px;
-       width: 150px;
-        object-fit: contain;
+       padding-right: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+   }
+
+   .project-gifs img{
+    height: 80%;
+       width: 85%;
+        object-fit: contain;      
    }
     
 }
