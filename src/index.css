@@ -125,15 +125,39 @@
     /* -- welcome -- */
 
     .welcome{
-        width: 90%;
-        padding: 0 1% 0 5%;
+        width: 85%;
+        padding: 0 1% 0 8%;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
     }
 
     .welcome h2{
         font-size: 2.5rem;
     }
+
+    .welcome p{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #spin{
+        color:rgb(241, 215, 238);
+        display: flex;
+    }
+    #spin:after{
+        content:"";
+        animation: spin 10s ease-in-out infinite;
+    }
+
+    /* web developer, caffeine-addict, artist */
+    @keyframes spin {
+        0% {content: "web developer";}
+        50% { content: "caffeine-addict";}
+        90% {content: "artist";}
+    }
+
    /* -- projects -- */
   
    .project-gifs{
