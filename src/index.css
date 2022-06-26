@@ -205,29 +205,29 @@
 
    /* -- projects -- */
   
-   .project-gifs{
-       padding: 0 0% 0 10%;
+   .projects{
+       padding: 0 0% 0 1.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
    }
 
-   .project-gifs img{
+   .projects img{
     height: 100%;
-       width: 100%;
-        object-fit: contain;     
-        margin: 1%; 
+    width: 100%;
+    object-fit: contain;     
+    margin: 1%; 
+    filter: 
+        grayscale(90%)
+        brightness(96%);
    }
 
    .img-wrap{
        position: relative;
    }
 
-   .img-wrap img{
-    width: 100%
-   }
 
    .caption{
        font-size: 1.2rem;
