@@ -134,6 +134,9 @@
         display: flex;
         flex-wrap: wrap;
         position: relative;
+        align-items: center;
+        justify-content: center;
+        position: relative;
     }
 
     .welcome h2{
@@ -146,10 +149,21 @@
         width: 100%;
     }
 
+    #selfie{
+        border-radius: 50%;
+        object-fit: contain;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #spin{
+        bottom: 15px;
         color:rgb(129, 194, 134);
         text-shadow: rgb(31, 43, 30) 2px 2px 10px;
-        display: flex;
+        padding-bottom: 1%;
+        position: absolute;
     }
     #spin:after{
         content:"";
@@ -162,11 +176,18 @@
         100% {content: "artist";}
     }
 
+    .welcome p{
+       margin-top: 3%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
     /* -- summary -- */
 
     #summary{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-left: 4%;
     }
 
@@ -174,10 +195,11 @@
         height: 5%;
         padding-left: 4%;
         display: flex;
+        align-self: flex-start;
+        gap: 70px;
     }
 
-    #langs li{
-        list-style: none;
+    #langs p{
         font-size: 1.5rem;
     }
 
@@ -197,7 +219,6 @@
        width: 100%;
         object-fit: contain;     
         margin: 1%; 
-    box-shadow: #000000 2px 2px 10px;
    }
 
    .img-wrap{
@@ -210,6 +231,7 @@
 
    .caption{
        font-size: 1.2rem;
+       text-shadow: black 2px 2px 6px;
        box-sizing: border-box;
        width: 100%;
        padding: 10px;
