@@ -26,33 +26,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row-reverse;
-       padding: 0;
-       margin: 0;
     }
 
     .header-back{
         display: flex;
         flex-wrap: wrap;
-
         width: 120%;
         height: 15vh;
         background-color: rgb(176, 204, 182);
         position: absolute;
-        /* top: 5px;  */
-        /* left: 5px;
-        right: 10px; */
+
     }
 
     h1{
         width: 70%;
         padding: 5% 0 0 1%;
-        margin-top: 21%; 
-        margin-left: 25%;
+        margin-top: 15%; 
+        margin-left: 5%;
        font-size: 3.5rem; 
        letter-spacing: 1.2;
        font-family: 'Liu Jian Mao Cao', cursive;
-       color: rgb(101, 116, 105);
+       color: rgb(133, 151, 137);
        text-shadow: 2px 2px 10px rgba(57, 71, 66, 0.473);
     }
 
@@ -65,13 +59,29 @@
     }
 
     #ham{
-        width: 10px;
-        border: red 5px;
-    }
+        margin-left: 20%;
+        margin-top: 30%;
+        position: relative;
+        display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid rgb(253, 207, 106);
+    border-bottom: 0.2em solid rgb(253, 207, 106);
+}
+
+.ham:before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #fff;
+}
 
     .toggle{
         display: none;
-        position: relative;
+        position: absolute;
         margin: 25% 0 0 15%;
         padding: 2%;
     }
@@ -129,8 +139,8 @@
     #spin{
         font-weight: bold;
         bottom: 25px;
-        color:rgb(136, 156, 137);
-        text-shadow: rgb(124, 126, 123) 1px 1px 5px;
+        color:rgb(253, 207, 106);
+        text-shadow: rgba(97, 111, 114, 0.596) 2px 2px 16px;
         padding-bottom: 1%;
         position: absolute;
     }
@@ -159,6 +169,10 @@
         flex-direction: column;
         align-items: center;
         padding-left: 4%;
+    }
+
+    #summary h2{
+        color:rgb(176, 204, 182)
     }
 
     #langs{
