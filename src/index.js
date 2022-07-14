@@ -8,6 +8,5 @@ const nav = document.querySelector("nav")
 const menuTitle = document.querySelector("#sidebar-menu h3")
 const links = document.querySelectorAll("nav a")
 
-
-
+const hamMenu = document.querySelector("#hamburger-input")
 
