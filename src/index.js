@@ -1,12 +1,42 @@
-const header = document.querySelector("header")
 
-const hamInput = document.querySelector("input")
-const hamLabel = document.querySelector("label")
 
-const nav = document.querySelector("nav")
+const header = document.createElement("header")
 
-const menuTitle = document.querySelector("#sidebar-menu h3")
-const links = document.querySelectorAll("nav a")
 
-const hamMenu = document.querySelector("#hamburger-input")
+const headerBackground = document.createElement("div")
+headerBackground.getElementById().id = "header-background"
 
+const hamMenu = document.createElement("div")
+
+const hamNav = document.createElement("nav")
+hamNav.getElementById().id = "site-nav"
+
+const toggleHamDiv = document.createElement("div")
+toggleHamDiv.classList.add("toggle")
+
+const navListWrap = document.createElement("ul")
+navListWrap.classList.add("toggle-menu")
+
+const navHomeLi = document.createElement("li")
+
+const home = document.createElement("a")
+home.href = "#"
+home.textContent = "Home"
+
+const about = document.createElement("a")
+about.href = "#"
+about.textContent = "About"
+
+const projects = document.createElement("a")
+projects.href = "#"
+projects.textContent = "Projects"
+
+const contact = document.createElement("a")
+contact.href = "#"
+contact.textContent = "Contact"
+
+const logoWrap = document.createElement("div")
+logoWrap.classList.add("banner")
+
+const logo = document.createElement("img")
+logo.src = "./media/"

@@ -28,12 +28,12 @@
         align-items: center;
     }
 
-    .header-back{
+    #header-background{
         display: flex;
         flex-wrap: wrap;
         width: 120%;
-        height: 15vh;
-        background-color: rgb(176, 204, 182);
+        height: 18vh;
+        background-color: rgb(164, 203, 147);
         position: absolute;
 
     }
@@ -43,30 +43,38 @@
         padding-top: 5%;
         margin-top: 15%; 
        font-size: 3.8rem; 
-       letter-spacing: 1.2;
+       letter-spacing: 1.4;
        font-family: 'Liu Jian Mao Cao', cursive;
-       color: rgb(241, 211, 146);
-       text-shadow: 2px 2px 10px rgba(57, 71, 66, 0.473);
+       color: rgb(248, 228, 186);
+       text-shadow: 2px 2px 10px rgba(209, 149, 46, 0.781);
+    }
+
+    .banner img{
+        width: 35%;
+        position: absolute;
+        top: -38%;
+        left: 30%;
+        margin-bottom: 20%;
     }
 
     /* hamburger menu */
 
     .navicon{
-        background-color: rgb(176, 204, 182);
+        /* background-color: rgb(176, 204, 182); */
         width: 30%;
-        border-radius: 10px;
+        /* border-radius: 10px; */
     }
 
     #ham{
-        margin-left: 20%;
-        margin-top: 40%;
+        margin-left: 23%;
+        margin-top: 53%;
         position: relative;
         display: inline-block;
     width: 1.5em;
-    height: 1em;
+    height: .8em;
     margin-right: 0.3em;
-    border-top: 0.2em solid rgb(253, 207, 106);
-    border-bottom: 0.2em solid rgb(253, 207, 106);
+    border-top: 0.2em solid rgb(2, 31, 28);
+    border-bottom: 0.2em solid rgb(2, 31, 28);
 }
 
 .ham:before {
