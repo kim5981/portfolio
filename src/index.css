@@ -223,14 +223,14 @@
 
    .caption{
         color:rgb(253, 207, 106);
-       font-size: 1.2rem;
+       font-size: 2rem;
        text-shadow: black 2px 2px 12px;
        box-sizing: border-box;
        width: 100%;
        padding: 10px;
        position: absolute;
-       bottom: 0;
-       left: 0;
+       bottom: 15px;
+       left: 10px;
     }
 
     /* show/hide captions */
