@@ -2,7 +2,7 @@ const express = require("express")
 
 const server = express()
 
-const PORT = process.env || 9000
+const PORT = process.env.PORT || 9000
 
 server.get("/", (req, res) => {
     console.log("server is working")
