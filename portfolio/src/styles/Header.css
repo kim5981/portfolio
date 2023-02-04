@@ -1,0 +1,25 @@
+.header {
+    padding: 1%;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .header nav{
+    display: flex;
+    justify-items: end;
+    width: 30%;
+    padding-left: 23%;
+    justify-content: space-between;
+  
+  }
+  
+  .header h3{
+    width: 50%;
+  }
+  
+  
+  a{
+    text-decoration: none;
+    width: 10%;
+    padding: 1.5%;
+  }
