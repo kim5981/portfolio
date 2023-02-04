@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css"
 import logo from "../logo.svg"
-import arrow from "../circle-down-solid.svg"
+
 
 
 export default function About(){
@@ -15,9 +15,9 @@ export default function About(){
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
 
-                <div> 
-                    <button>Show more</button> 
-                    <arrow icon="fa-solid fa-circle-down"/>
+                <div className="more-btn"> 
+                    <button>More info</button> 
+                    <p>&#8595;</p>
                 </div>
             </div>
             

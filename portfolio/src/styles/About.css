@@ -26,3 +26,11 @@ button{
     background: none;
 }
 
+.more-btn{
+    display: flex;
+}
+
+.more-btn p{
+    font-weight: 300;
+}
+
