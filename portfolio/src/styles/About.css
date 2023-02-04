@@ -1,0 +1,28 @@
+.about-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 5%;
+}
+
+.text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.selfie{
+    display: flex;
+    width: 40%;
+    padding-left: 5%;
+}
+
+button{
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    background: none;
+}
+
