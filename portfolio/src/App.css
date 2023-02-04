@@ -1,5 +1,10 @@
+*{
+  border: solid red 2px ;
+}
+
 .App {
   text-align: center;
+  padding: 1%;
 }
 
 .App-logo {
@@ -14,7 +19,29 @@
 }
 
 .header {
+  padding: 1%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h3{
+  width: 50%;
+}
+
+.header nav{
+  display: flex;
+  justify-items: end;
+  width: 30%;
+  padding-left: 40%;
+  justify-content: space-between;
+
+}
+
+a{
+  text-decoration: none;
+  width: 10%;
+  padding: 2%;
 }
 
 .App-link {
