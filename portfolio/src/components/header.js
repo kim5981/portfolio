@@ -8,7 +8,7 @@ export default function Header(){
             <div className="logo-wrap">
                 <div className="row">
                     <div className="col center-text">
-                    <h3 className="animate"> KIM/R</h3>
+                    <h3 className="animate"> &#x3c;K/R&#x3e;</h3>
                     </div>
                 </div>
             </div>

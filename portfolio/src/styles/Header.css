@@ -9,7 +9,7 @@ header {
   }
 
   .logo-wrap{
-    width: 30%;
+    width: 15%;
   }
 
   .animate{
@@ -31,7 +31,7 @@ header {
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-      font-size: 2.5rem;
+      font-size: 60px;
   }
 
   @keyframes textclip {
@@ -43,16 +43,13 @@ header {
   header nav{
     display: flex;
     justify-items: end;
-    width: 30%;
-    padding-left: 25%;
+    width: 45%;
+    padding-left: 35%;
     padding-right: 5%;
     justify-content: space-between;
   
   }
   
-  header h3{
-    width: 45%;
-  }
   
   #theme{
     padding-right: 2.5%;
