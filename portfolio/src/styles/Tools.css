@@ -1,10 +1,18 @@
-.tools{
-    width: 80%;
+.tools-wrap{
+    width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
 }
 .icon{
-    padding: 1.5%;
+    padding: 3%;
     height: 5vh;
 }
