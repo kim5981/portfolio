@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css"
-import logo from "../logo.svg"
+import kim  from "../pic.png"
 
 
 
@@ -21,7 +21,7 @@ export default function About(){
                 </div>
             </div>
             
-            <img className="selfie" alt="software engineer kimberly rodriguez" src={ logo }/>
+            <img className="selfie" alt="software engineer kimberly rodriguez" src={ kim }/>
         </section>
         </>
     )
