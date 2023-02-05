@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header'
 import About from './components/About'
 import Tools from "./components/Tools"
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,9 +12,8 @@ function App() {
       <About/>
       <Tools/>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        
+      <Projects/>  
         <a
           className="App-link"
           href="https://reactjs.org"
