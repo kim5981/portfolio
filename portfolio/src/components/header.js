@@ -3,9 +3,16 @@ import "../styles/Header.css"
 
 export default function Header(){
     return (
-        <>
-        <div className="header">
-            <h3>logo here</h3>
+    
+        <header>
+            <div className="logo-wrap">
+                <div className="row">
+                    <div className="col center-text">
+                    <h3 className="animate"> KIM/R</h3>
+                    </div>
+                </div>
+            </div>
+            
         <nav>
             <a href="#"> home </a>
             <a href="#"> projects </a>
@@ -14,8 +21,7 @@ export default function Header(){
         </nav>
         {/* vv add dark/light mode functionality later */}
         <button id="theme"> dark </button> 
-        </div>
+        </header>
         
-        </>
     )
 }

@@ -1,4 +1,4 @@
-.header {
+header {
     position: fixed;
     left: 0;
     top: 0;
@@ -8,7 +8,39 @@
     align-items: baseline;
   }
 
-  .header nav{
+  .logo-wrap{
+    width: 30%;
+  }
+
+  .animate{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -223deg,
+      #1F1D36 0%,
+      #3F3351 29%,
+      #864879 67%,
+      #E9A6A6 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+      font-size: 2.5rem;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  header nav{
     display: flex;
     justify-items: end;
     width: 30%;
@@ -18,7 +50,7 @@
   
   }
   
-  .header h3{
+  header h3{
     width: 45%;
   }
   
