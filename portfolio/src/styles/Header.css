@@ -1,5 +1,8 @@
 .header {
-    width: 95%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 99%;
     padding: 1%;
     display: flex;
     align-items: baseline;
