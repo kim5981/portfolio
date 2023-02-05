@@ -12,13 +12,14 @@
     display: flex;
     justify-items: end;
     width: 30%;
-    padding-left: 23%;
+    padding-left: 25%;
+    padding-right: 1%;
     justify-content: space-between;
   
   }
   
   .header h3{
-    width: 50%;
+    width: 45%;
   }
   
   
