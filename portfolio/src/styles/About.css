@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 95%;
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
 .text{
@@ -23,7 +23,8 @@ p{
 
 .selfie{
     display: flex;
-    width: 40%;
+    height: 50vh;
+    /* width: 35%; */
     padding-left: 5%;
 }
 
