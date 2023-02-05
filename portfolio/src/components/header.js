@@ -12,7 +12,8 @@ export default function Header(){
             <a href="#"> contact </a>
 
         </nav>
-
+        {/* vv add dark/light mode functionality later */}
+        <button id="theme"> dark </button> 
         </div>
         
         </>
