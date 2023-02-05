@@ -7,12 +7,16 @@
 }
 
 .tools{
+    padding: 2% 10% 2% 10%;
+    background-color: rgb(63, 51, 81);
+    border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 85%;
+    width: 60%;
 }
 .icon{
-    padding: 3%;
+    background-color: rgb(63, 51, 81);
+    padding: 2% 10% 2% 10%;
     height: 5vh;
 }

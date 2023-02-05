@@ -8,7 +8,6 @@ export default function Tools(){
             <div className="tools">
                 <img alt="CSS" className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                 {/* insert cypress icon */}
-                <img alt="Canva" className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
                 <img alt="Docker" className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
                 <img alt="eslint" className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" />
                 <img alt="Express" className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
