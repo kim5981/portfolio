@@ -64,6 +64,25 @@ button{
     9.1163%, 18.2326% { content: "develope"; }
     10.2558%, 17.0930% { content: "developer"; }
 
+    30.7674%, 51.2791% { content: ""; }
+    30.7674%, 51.2791% { content: "g"; }
+    33.0465%, 49.0000% { content: "ga"; }
+    34.1860%, 47.8605% { content: "gam"; }
+    35.3256%, 46.7209% { content: "game"; }
+    36.4651%, 45.5814% { content: "gamer"; }
+
+    54.6977%, 75.2093% { content: ""; }
+    55.8372%, 74.0698% { content: "c"; }
+    56.9767%, 72.9302% { content: "co"; }
+    58.1163%, 71.7907% { content: "coff"; }
+    59.2558%, 70.6512% { content: "coffe"; }
+    60.3953%, 69.5116% { content: "coffee"; }
+    61.5349%, 68.3721% { content: "coffee "; }
+    62.6279%, 68.8605% { content: "coffee l"; }
+    63.7674%, 67.7209% { content: "coffee lo"; }
+    64.9070%, 68.5814% { content: "coffee lov"; }
+    65.0465%, 67.4419% { content: "coffee love"; }
+    66.1860%, 66.8860% { content: "coffee lover"; }
 
 }
 
@@ -73,7 +92,11 @@ button{
 }
 
 .typewriter{
+    /* display: flex; */
+    margin-bottom: 1%;
     --caret: currentcolor;
+    font-size: 2.5rem;
+    color: rgb(233, 166, 166);
 }
 
 .typewriter::before {
@@ -95,9 +118,8 @@ button{
     
     @keyframes sequencePopup {
       0%, 100% { content: "developer"; }
-      25% { content: "writer"; }
-      50% { content: "reader"; }
-      75% { content: "human"; }
+      35% { content: "gamer"; }
+      50% { content: "coffee lover"; }
     }
   
     .typewriter::before {
@@ -105,3 +127,6 @@ button{
       animation: sequencePopup 12s linear infinite;
     }
   }
+
+  /* credit for tutorial
+   https://codepen.io/alvaromontoro/pen/rNwVpdd */
