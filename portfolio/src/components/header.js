@@ -20,7 +20,7 @@ export default function Header(){
 
         </nav>
         {/* vv add dark/light mode functionality later */}
-        <button id="theme"> </button> 
+        <button id="theme"></button> 
         </header>
         
     )
