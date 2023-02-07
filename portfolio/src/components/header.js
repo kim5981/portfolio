@@ -14,13 +14,13 @@ export default function Header(){
             </div>
             
         <nav>
-            <a href="#"> home </a>
+            <a id="home" href="#"> home </a>
             <a href="#"> projects </a>
             <a href="#"> contact </a>
 
         </nav>
         {/* vv add dark/light mode functionality later */}
-        <button id="theme"> dark </button> 
+        <button id="theme"> </button> 
         </header>
         
     )

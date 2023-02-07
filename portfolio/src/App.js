@@ -49,7 +49,7 @@ function App() {
        
       
 
-      <p>Copyright { n.getFullYear() } All Rights Reserved</p>
+      <p id="copyright">Copyright { n.getFullYear() } All Rights Reserved</p>
     </footer>
         
       

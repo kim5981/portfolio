@@ -9,7 +9,7 @@
 .tools{
     padding: 2% 10% 2% 10%;
     background-color: rgb(63, 51, 81);
-    border-radius: 5px;
+    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
