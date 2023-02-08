@@ -26,17 +26,3 @@ h2{
     padding: 1.5%;
 }
 
-.slides{
-    height: 500px;
-    position: absolute;
-    display: flex;
-    background-size: contain;
-    padding: auto;
-}
-
-.dot{
-    position: relative;
-    background-color: black;
-    border: 2px solid red;
-}
-
